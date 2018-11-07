@@ -1,0 +1,8 @@
+In diesem package werden JUnit Tests ausgeführt
+Das package bildet main kopmplett ab 
+JUnit klassen werden folgendermaßen benannt:
+"*NameDerKlasseAusMain* + Test".java
+
+Bsp:
+Name der Klasse in main: window.java
+Name der Klasse in test: windowTest.java

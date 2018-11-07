@@ -1,0 +1,21 @@
+Hier werden die Klassen und Rassen festgelegt
+Es gibt nur Klassen-Klassen
+Rassen beeinflussen einzelne Werte
+
+Rassen:
+
+Mensch:
+
+Dex:5
+Str:5
+
+Orc:
+
+AD: +1
+Dex:4
+Str:6
+
+Elf:
+
+AD:-1
+AP:+1
