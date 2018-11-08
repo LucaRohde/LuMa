@@ -31,6 +31,8 @@ public abstract class GameCharacter {
 		this.ap = ap;
 		this.name = name;
 		this.dex = dex;
+		
+		
 
 	}
 
