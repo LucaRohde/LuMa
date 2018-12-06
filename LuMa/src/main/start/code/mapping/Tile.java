@@ -1,11 +1,11 @@
-package main.start.code.map;
+package main.start.code.mapping;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 import javafx.scene.image.Image;
 
-public class Tile extends Image{
+public abstract class Tile extends Image{
 //Einfaches Tile
 	
 	static String path = "../../../../resources/";

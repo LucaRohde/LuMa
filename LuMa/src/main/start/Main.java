@@ -16,7 +16,7 @@ public class Main extends Application {
 //			BorderPane root = new BorderPane();
 //			Scene scene = new Scene(root,400,400);
 //			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			Parent root = FXMLLoader.load(getClass().getResource("../view/TestImage.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("../view/Map.fxml"));
 			primaryStage.setScene(new Scene(root));
 			primaryStage.show();
 		} catch(Exception e) {

@@ -9,7 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import main.start.code.map.Tile;
+import main.start.code.mapping.Tile;
 
 public class TestImageController implements Initializable {
 
