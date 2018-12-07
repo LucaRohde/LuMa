@@ -17,7 +17,7 @@ public class MapController  implements Initializable{
 	@FXML
 	BorderPane borderPane;
 	
-	@FXML
+	
 	GridPane gridPane;
 
 	
@@ -26,11 +26,15 @@ public class MapController  implements Initializable{
 	
 	public MapController() throws FileNotFoundException {
 		map = new StandardMap();
-		gridPane.setMinSize(map.getNumberOfTilesHorizontaly(), map.getNumberOfTilesVerticaly());
-		gridPane.setMaxSize(map.getNumberOfTilesHorizontaly(), map.getNumberOfTilesVerticaly());
+		gridPane= new GridPane();
+		borderPane =new BorderPane();
+//		gridPane.setMinSize(map.getNumberOfTilesHorizontaly(), map.getNumberOfTilesVerticaly());
+//		
+//		gridPane.setMaxSize(map.getNumberOfTilesHorizontaly(), map.getNumberOfTilesVerticaly());
 		for(int i =0; i<4;i++) {
 		ImageView child =new ImageView(map.getSpecificTile(i, i));
 		gridPane.add(child, i, i);}
+		borderPane.getChildren().add(gridPane);
 	}
 
 	@Override

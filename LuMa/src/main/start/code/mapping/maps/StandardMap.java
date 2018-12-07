@@ -8,8 +8,8 @@ import main.start.code.mapping.tiles.StandardTile;
 public class StandardMap extends Map{
 
 	public StandardMap() throws FileNotFoundException {
-		super(4, 4);
-		for (int i =0; i<5;i++) {
+		super(2, 2);
+		for (int i =0; i<2;i++) {
 		this.addTile(i, i, new StandardTile());}
 	}
 

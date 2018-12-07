@@ -8,7 +8,7 @@ import javafx.scene.image.Image;
 public abstract class Tile extends Image{
 //Einfaches Tile
 	
-	static String path = "../../../../resources/";
+	static String path = ".\\src\\main\\resources\\";
 	public Tile(String typeOfTile) throws FileNotFoundException {
 		super(new FileInputStream(path+typeOfTile+".png"));
 		
